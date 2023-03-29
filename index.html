@@ -399,6 +399,13 @@
             </li>
           </ul>
         </div>
+        <div class="footer-subscribe">
+          <div>
+            <h3 class="title footer-title-soc">Subscribe</h3>
+            <input type="email" name="user-email" class="modal-input" />
+          </div>
+          <button type="submit" class="modal-button-submit">Send</button>
+        </div>
       </div>
     </footer>
 
@@ -409,6 +416,51 @@
             <use href="./images/icons.svg#icon-button-close"></use>
           </svg>
         </button>
+        <h2 class="modal-title">
+          Leave your contacts and we will call you back
+        </h2>
+        <form class="modal-form">
+          <label for="" class="modal-label"
+            ><span class="modal-label-text">Name</span>
+            <div class="modal-label-input-wrap">
+              <input type="text" name="user-name" class="modal-input" />
+              <svg class="modal-input-icon">
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
+            </div>
+          </label>
+
+          <label for="" class="modal-label"
+            ><span class="modal-label-text">Phone</span>
+            <div class="modal-label-input-wrap">
+              <input type="tel" name="user-tel" class="modal-input" />
+              <svg class="modal-input-icon">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
+          </label>
+
+          <label for="" class="modal-label"
+            ><span class="modal-label-text">Email</span>
+            <div class="modal-label-input-wrap">
+              <input type="email" name="user-email" class="modal-input" />
+              <svg class="modal-input-icon">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </div>
+          </label>
+
+          <label for="" class="modal-label"
+            ><span class="modal-label-text">Comment</span>
+            <textarea
+              name=""
+              class="modal-text"
+              placeholder="Text input"
+            ></textarea>
+          </label>
+        </form>
+        <input type="checkbox" name="policy" class="modal-checkbox" />
+        <button type="submit" class="modal-button-submit">Send</button>
       </div>
     </div>
     <script src="./js/modal.js"></script>
