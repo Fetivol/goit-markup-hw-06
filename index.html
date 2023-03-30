@@ -400,11 +400,21 @@
           </ul>
         </div>
         <div class="footer-subscribe">
-          <div>
-            <h3 class="title footer-title-soc">Subscribe</h3>
-            <input type="email" name="user-email" class="modal-input" />
+          <h3 class="title footer-title-soc">Subscribe</h3>
+          <div class="footer-subscribe-items">
+            <input
+              type="email"
+              name="user-email"
+              class="footer-input"
+              placeholder="E-mail"
+            />
+            <button type="submit" class="footer-button-subscribe">
+              Subscribe
+              <svg class="footer-button-icon">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
           </div>
-          <button type="submit" class="modal-button-submit">Send</button>
         </div>
       </div>
     </footer>
@@ -450,7 +460,7 @@
             </div>
           </label>
 
-          <label for="" class="modal-label"
+          <label for="" class="modal-label-text-input"
             ><span class="modal-label-text">Comment</span>
             <textarea
               name=""
@@ -458,9 +468,21 @@
               placeholder="Text input"
             ></textarea>
           </label>
+          <div class="modal-user-privacy">
+            <input
+              type="checkbox"
+              id="privacy"
+              name="user-privacy"
+              class="modal-checkbox"
+              value="true"
+            />
+            <label for="privacy" class="check-text">
+              I accept the terms and conditions of the
+              <a href="" class="check-text-link">Privacy Policy</a>
+            </label>
+          </div>
+          <button type="submit" class="modal-button-submit">Send</button>
         </form>
-        <input type="checkbox" name="policy" class="modal-checkbox" />
-        <button type="submit" class="modal-button-submit">Send</button>
       </div>
     </div>
     <script src="./js/modal.js"></script>
