@@ -452,10 +452,8 @@ body {
   fill: var(--backgroun-color);
 }
 .footer-subscribe {
-  display: flex;
   margin-right: 0;
-  flex-direction: column;
-  margin-left: 80px;
+  margin-left: auto;
 }
 .footer-subscribe-items {
   display: flex;
@@ -670,11 +668,9 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
-  padding-left: 24px;
-  padding-right: 24px;
+  padding: 72px 24px 24px;
 
   width: 408px;
-  height: auto;
 
   background-color: var(--modal-collor);
   border-radius: 4px;
@@ -706,7 +702,7 @@ body {
 }
 .button-close {
   width: 8px;
-  height: auto;
+  height: 8px;
   fill: var(--title-text-color);
 }
 .modal-button:hover .button-close,
@@ -714,7 +710,6 @@ body {
   fill: var(--backgroun-color);
 }
 .modal-title {
-  padding-top: 72px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -850,8 +845,7 @@ body {
   width: 169px;
   height: 56px;
   padding: 16px 32px;
-  margin-top: 24px;
-  margin-bottom: 24px;
+
   margin-left: auto;
   margin-right: auto;
 
