@@ -723,7 +723,7 @@ body {
   flex-direction: column;
 }
 .modal-label {
-  margin-bottom: 8px;
+  margin-bottom: 4px;
 }
 .modal-label-text-input {
   margin-bottom: 16px;
@@ -740,7 +740,7 @@ body {
 }
 .modal-label-input-wrap {
   position: relative;
-  margin-top: 4px;
+  margin-bottom: 8px;
 }
 .modal-input-icon {
   position: absolute;
